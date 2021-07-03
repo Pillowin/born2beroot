@@ -42,4 +42,4 @@ wall <<< "#Architecture: $arch
 #Connexions TCP: $tcp ESTABLISHED
 #User log: $user
 #Network: $ip
-#Sudo: $sudo"
+#Sudo: $sudo cmd"
