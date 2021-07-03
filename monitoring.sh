@@ -39,7 +39,7 @@ wall <<< "#Architecture: $arch
 #CPU load: $load
 #Last boot: $boot
 #LVM use: $lvm
-#Connexions TCP: $tcp ESTABLISHED
+#Connections TCP: $tcp ESTABLISHED
 #User log: $user
 #Network: $ip
 #Sudo: $sudo cmd"
