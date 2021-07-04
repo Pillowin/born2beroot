@@ -7,3 +7,4 @@ This project aims to introduce you to the wonderful world of virtualization.
 - remove root in ssh
 - install and configure sudo (with logs)
 - finish monitoring.sh
+- cron for monitoring.sh
