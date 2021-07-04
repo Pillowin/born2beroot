@@ -1,5 +1,8 @@
 #! /usr/bin/env bash
 
+# cat /etc/security/pwquality.conf
+# cat /etc/login.defs
+
 echo "[$USER@$HOSTNAME $PWD]# head -n 2 /etc/os-release"
 head -n 2 /etc/os-release
 echo ""
