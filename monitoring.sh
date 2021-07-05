@@ -29,7 +29,7 @@ user=`users | wc -w`
 ip=`hostname --all-ip-address`
 ip+=`ip addr show | grep ether | awk '{printf("(%s)\n", $2)}'`
 
-sudo=``
+sudo=`grep -c "COMMAND=" /var/log/sudo/sudo.log`
 
 wall <<< "#Architecture: $arch
 #CPU physical: $cpu
